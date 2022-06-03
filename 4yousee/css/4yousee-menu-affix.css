@@ -1,0 +1,54 @@
+.affix {
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0.97);
+	padding-bottom: 8px;
+    border-bottom: 1px solid #0B9444;
+}
+.affix.header {
+	min-height: 75px;
+}
+
+.affix .menu-header {
+    position: absolute;
+	left: 50%;
+    margin-left: -217px;
+}
+.affix .menu-header .current-page a {
+	border-radius: 10px;
+}
+
+.menu-header a {
+	transition: none;
+}
+
+.affix .menu-header a {
+    padding: 42px 15px 0;
+	transition: none;
+    height: 69px;
+    font-size: 12px;
+    font-size: 12px
+}
+
+.affix .menu-header a svg {
+	margin-left: -12px;
+    width: 25px;
+}
+
+.affix .menu-header .current-page:before,
+.affix .menu-header .current-page:after {
+	display: none;
+}
+
+.affix .header-logo img {
+	top: 60%;
+}
+.affix .user-action {
+	top: 50%;
+    margin-top: -25px;
+}
+.affix .header-logo {
+	height: 82px;
+}
